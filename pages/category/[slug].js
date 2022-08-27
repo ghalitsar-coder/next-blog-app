@@ -11,13 +11,13 @@ const CategoryPost = ({ posts }) => {
     return <Loader />;
   }
 
-//   if (!posts.length) {
-//     return (
-//       <div className="text-xl text-center mt-52 text-gray-400">
-//         404 Not Found!
-//       </div>
-//     );
-//   }
+  if (!posts.length) {
+    return (
+      <div className="text-xl text-center mt-52 text-gray-400">
+        404 Not Found!
+      </div>
+    );
+  }
 
   return (
     <>
